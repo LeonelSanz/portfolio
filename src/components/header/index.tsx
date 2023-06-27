@@ -1,3 +1,4 @@
+import FooterHeader from "./footer";
 import NavHeader from "./nav";
 
 type Props = {};
@@ -18,8 +19,8 @@ export default function Header({}: Props) {
                     </p>
                 </div>
                 <NavHeader />
-                
+                <FooterHeader />
             </div>
         </header>
-    )
-}
+    );
+};
