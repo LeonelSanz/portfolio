@@ -17,3 +17,4 @@ const NavItem = ({ label, href }: NavItemType) => {
     );
 };
 
+export default NavItem;
