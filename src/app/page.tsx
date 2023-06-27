@@ -1,3 +1,4 @@
+import AboutSection from '@/components/about'
 import Header from '@/components/header'
 import HomeSection from '@/components/home'
 import Image from 'next/image'
@@ -15,7 +16,7 @@ export default function Home() {
             <div className='grid grid-cols-2 gap-2 h-full w-full'>
               <Header />
               <div className='col-span-1 max-[800px]:col-span-2 flex flex-col'>
-                
+                <AboutSection />
               </div>
             </div>
           </div>
