@@ -1,4 +1,5 @@
 import AboutSection from '@/components/about'
+import Footer from '@/components/footer'
 import Header from '@/components/header'
 import HomeSection from '@/components/home'
 import ProjectsSection from '@/components/projects'
@@ -19,8 +20,9 @@ export default function Home() {
               <Header />
               <div className='col-span-1 max-[800px]:col-span-2 flex flex-col'>
                 <AboutSection />
-                <SkillsSection />
                 <ProjectsSection />
+                <SkillsSection />
+                <Footer />
               </div>
             </div>
           </div>
