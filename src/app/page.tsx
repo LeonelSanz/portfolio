@@ -1,6 +1,7 @@
 import AboutSection from '@/components/about'
 import Header from '@/components/header'
 import HomeSection from '@/components/home'
+import ProjectsSection from '@/components/projects'
 import SkillsSection from '@/components/skills'
 import Image from 'next/image'
 
@@ -19,6 +20,7 @@ export default function Home() {
               <div className='col-span-1 max-[800px]:col-span-2 flex flex-col'>
                 <AboutSection />
                 <SkillsSection />
+                <ProjectsSection />
               </div>
             </div>
           </div>
