@@ -1,14 +1,17 @@
 import AboutSection from '@/components/about'
+import CursorShadow from '@/components/cursor-shadow'
 import Footer from '@/components/footer'
 import Header from '@/components/header'
 import HomeSection from '@/components/home'
 import ProjectsSection from '@/components/projects'
 import SkillsSection from '@/components/skills'
-import Image from 'next/image'
 
-export default function Home() {
+type Props = {};
+
+function HomePage({}: Props) {
   return (
     <>
+      <CursorShadow />
       <div className='relative'>
         <HomeSection />
         <div
@@ -29,5 +32,7 @@ export default function Home() {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
+
+export default HomePage;
