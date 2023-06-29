@@ -41,7 +41,98 @@ const projects: ProjectType[] = [
             </>
         )
     },
-
+    {
+        id: 1,
+        image: '/projects/ecommerce-react.png',
+        status: 'Finished',
+        deploy: 'https://react-coder-beta.vercel.app/',
+        repository: 'https://github.com/LeonelSanz/react-coder',
+        title: 'E-commerce with React',
+        description: (
+            <>
+                E-commerce developed with{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://react.dev/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    ReactJS,
+                </Link>{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://firebase.google.com/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Firebase
+                </Link>{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://developers.mercadolibre.com.ar/es_ar/api-docs-es"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Mercadolibre API
+                </Link>{' '}
+                and deployed in
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://vercel.com"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Vercel
+                </Link>
+            </>
+        )
+    },
+    {
+        id: 2,
+        image: '/projects/anime-commerce.png',
+        status: 'Finished',
+        deploy: 'https://leonelsanz.github.io/proyecto-final-html/',
+        repository: 'https://github.com/LeonelSanz/proyecto-final-html',
+        title: 'Anime E-commerce',
+        description: (
+            <>
+                Anime E-commerce developed with{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://developer.mozilla.org/es/docs/Web/HTML"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    HTML,
+                </Link>{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://developer.mozilla.org/es/docs/Web/CSS"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    CSS
+                </Link>{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://sass-lang.com/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    SASS
+                </Link>{' '}
+                and deployed in
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://pages.github.com/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Github Pages
+                </Link>
+            </>
+        )
+    },
 ]
 
 //Component
