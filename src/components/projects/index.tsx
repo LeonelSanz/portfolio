@@ -5,6 +5,52 @@ import { ProjectType } from "./types";
 const projects: ProjectType[] = [
     {
         id: 0,
+        image: '/projects/Airbnb-clone.png',
+        status: 'Finished',
+        deploy: 'https://airclone-ten.vercel.app/',
+        repository: 'https://github.com/LeonelSanz/Airbnb-Clone',
+        title: 'Airbnb Clone',
+        description: (
+            <>
+                Airbnb clone developed with{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://nextjs.org"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    NextJS,
+                </Link>{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://tailwindcss.com/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Tailwindcss
+                </Link>{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://www.typescriptlang.org/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    TypeScript
+                </Link>{' '}
+                and deployed in
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://vercel.com"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Vercel
+                </Link>
+            </>
+        )
+    },
+    {
+        id: 1,
         image: '/projects/lavelada.png',
         status: 'Finished',
         deploy: 'https://lavelada-3.netlify.app/',
@@ -42,7 +88,7 @@ const projects: ProjectType[] = [
         )
     },
     {
-        id: 1,
+        id: 2,
         image: '/projects/ecommerce-react.png',
         status: 'Finished',
         deploy: 'https://react-coder-beta.vercel.app/',
@@ -88,7 +134,7 @@ const projects: ProjectType[] = [
         )
     },
     {
-        id: 2,
+        id: 3,
         image: '/projects/anime-commerce.png',
         status: 'Finished',
         deploy: 'https://leonelsanz.github.io/proyecto-final-html/',
