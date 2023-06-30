@@ -9,7 +9,7 @@ export default function Header({}: Props) {
             <div className="h-full py-24 px-14 max-[800px]:px-2 flex flex-col">
                 <div className="flex flex-col gap-3">
                     <h1 className="font-bold text-[#1f1c19] dark:text-[#cdbead] relative item-s text-transparent text-6xl bg-clip-text inline-block text-gradient tracking-tighter">
-                        Leonel
+                        Leonel Sanz
                     </h1>
                     <h2 className="dark:text-[#ada79f] text-[#6c6761] item-s text-transparent bg-clip-text tracking-tighter text-gradient text-xl">
                         Full Stack Web Developer

@@ -3,7 +3,7 @@ import Image from "next/image";
 function HomeSection() {
     return (
         <>
-            <section className="h-screen relative flex items-center max-w-[1000px] mx-auto">
+            <section className="h-screen relative items-center max-w-[1000px] mx-auto">
                 <div className="p-0 h-full text-center max-w-full page_center__diPtZ max-[700px]:after:hidden">
                     <div className="flex items-center flex-col justify-center w-full gap-4">
                         <div className="flex flex-col -z-10 gap-3 max-[700px]:px-2">

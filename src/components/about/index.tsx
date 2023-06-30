@@ -10,7 +10,7 @@ export default function AboutSection({}: Props) {
             </h3>
             <div className="dark:text-neutral-400 text-neutral-900">
                 <p className="mb-4 leading-6 text-base">
-                    Hello! I'm Leonel, a passionate Full Stack web developer with a specialization in Front-end. I love combining aesthetics and functionality 
+                    A passionate Full Stack web developer with a specialization in Front-end. I love combining aesthetics and functionality 
                     to create interactive and engaging web experiences.
                     I excel in developing responsive and accessible websites, ensuring an optimal user experience on different devices and browsers. 
                     I have worked on personal projects to expand my practical experience. I have developed static and dynamic 
