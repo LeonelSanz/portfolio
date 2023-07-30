@@ -3,6 +3,13 @@ import { CertificateType } from "./types";
 import Certificate from './certificate';
 
 const projects: CertificateType[] = [
+    {
+        id: 0,
+        image: '',
+        status: 'Finished',
+        title: 'FullStack Web Developer'
+    }
+];
 
 
 //Component
