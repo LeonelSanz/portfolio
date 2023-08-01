@@ -9,6 +9,7 @@ export default function NavHeader({}: Props) {
                 <NavItem href="#about" label="About" />
                 <NavItem href="#projects" label="Projects" />
                 <NavItem href="#skills" label="Skills" />
+                <NavItem href="#certificates" label="Certificates" />
             </ul>
         </nav>
     )

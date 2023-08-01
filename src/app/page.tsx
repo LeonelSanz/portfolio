@@ -1,4 +1,5 @@
 import AboutSection from '@/components/about'
+import CertificatesSection from '@/components/certificates'
 import CursorShadow from '@/components/cursor-shadow'
 import Footer from '@/components/footer'
 import Header from '@/components/header'
@@ -25,6 +26,7 @@ function HomePage({}: Props) {
                 <AboutSection />
                 <ProjectsSection />
                 <SkillsSection />
+                <CertificatesSection />
                 <Footer />
               </div>
             </div>
