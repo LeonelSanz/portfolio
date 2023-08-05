@@ -5,13 +5,20 @@ import ItemCertificates from './certificate';
 const certificates: CertificateType[] = [
     {
         id: 0,
+        image: '/certificates/JavaScript.png',
+        url: 'https://seprogramar.inti.gob.ar/inti/certificates/verify/c1Eq7E0_qfZMz0h8',
+        title: 'JavaScript',
+        plataforma: 'Coderhouse'
+    },
+    {
+        id: 0,
         image: '/certificates/Desarrollo Web.png',
         url: 'https://seprogramar.inti.gob.ar/inti/certificates/verify/c1Eq7E0_qfZMz0h8',
         title: '#SéProgramar',
         plataforma: 'Argentina Programa'
     },
     {
-        id: 0,
+        id: 2,
         image: '/certificates/Desarrollo Web.png',
         url: 'Finished',
         title: 'Web Developer',
