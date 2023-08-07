@@ -39,10 +39,13 @@ export default function ItemCertificates(certificate: CertificateType) {
                                 className="dark:text-orange-100/50 text-orange-900/80 font-normal"
                                 aria-hidden="true"
                             >
-                                {certificate.plataforma}
+                                {certificate.fecha}
                             </div>
                         </div>
                     </h3>
+                    <p className="mt-2 text-sm leading-normal dark:text-orange-50/60 text-orange-950/80 dark:text-orange-50 [&>a]:text-orange-800 dark:[&>a]:text-orange-50 dark:hover:[&>a]:text-cyan-500 hover:[&>a]:text-cyan-700">
+                        {certificate.plataforma}
+                    </p>
                 </div>
             </div>
         </article>

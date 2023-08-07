@@ -12,7 +12,8 @@ import {
     NextjsIcon,
     ReactJsIcon,
     TailwindcssIcon,
-    TypeScriptIcon
+    TypeScriptIcon,
+    AngularIcon
 } from "@/icons";
 
 export default function SkillsSection() {
@@ -35,6 +36,7 @@ export default function SkillsSection() {
                     <Skill title="MongoDB" icon={<MongoDbIcon />} />
                     <Skill title="Cloudinary" icon={<CloudinaryIcon />} />
                     <Skill title="Java" icon={<JavaIcon />} />
+                    <Skill title="Angular" icon={<AngularIcon />} />
                     <Skill title="MySQL" icon={<MysqlIcon />} />
                 </div>
             </div>

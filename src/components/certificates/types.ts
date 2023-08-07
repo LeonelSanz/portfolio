@@ -3,5 +3,6 @@ export type CertificateType = {
     image?: string;
     title: string;
     url: string;
-    plataforma: string;
+    plataforma: React.ReactNode | string;
+    fecha: string;
 };
