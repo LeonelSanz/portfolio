@@ -10,14 +10,10 @@ export default function AboutSection({}: Props) {
             </h3>
             <div className="dark:text-neutral-400 text-neutral-900">
                 <p className="mb-4 leading-6 text-base">
-                    A passionate Full Stack web developer with a specialization in Front-end. I love combining aesthetics and functionality 
-                    to create interactive and engaging web experiences.
-                    I excel in developing responsive and accessible websites, ensuring an optimal user experience on different devices and browsers. 
-                    I have worked on personal projects to expand my practical experience. I have developed static and dynamic 
-                    websites, implementing concepts such as event handling, DOM manipulation, and API communication. These projects have allowed me to 
-                    refine my problem-solving skills.
-                    I am a creative individual, detail-oriented, and passionate about constant learning. I stay updated on the latest trends and 
-                    advancements in web development, and I am always ready to take on new challenges.
+                    Passionate and ambitious web developer with a strong foundation in front-end development.
+                    With a keen eye for detail and a determination to learn and grow, I am a dedicated and motivated individual who thrives on challenges.
+                    I have a genuine passion for web development and constantly stay up-to-date with the latest industry trends and best practices.
+                    I am a fast learner and enjoy solving problems creatively.
                 </p>
             </div>
         </section>
