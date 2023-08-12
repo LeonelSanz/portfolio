@@ -5,6 +5,44 @@ import { ProjectType } from "./types";
 const projects: ProjectType[] = [
     {
         id: 0,
+        image: '/projects/lavelada.png',
+        status: 'Finished',
+        deploy: 'https://lavelada-3.netlify.app/',
+        repository: 'https://github.com/LeonelSanz/la-velada-clone',
+        title: 'La Velada Landing',
+        description: (
+            <>
+                La Velada page clone developed with{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://astro.build/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Astro,
+                </Link>{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://tailwindcss.com/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Tailwindcss
+                </Link>{' '}
+                and deployed in
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://www.netlify.com/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Netlify
+                </Link>
+            </>
+        )
+    },
+    {
+        id: 0,
         image: '/projects/Airbnb-clone.png',
         status: 'Finished',
         deploy: 'https://airclone-ten.vercel.app/',
