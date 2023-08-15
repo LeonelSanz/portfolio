@@ -5,21 +5,30 @@ import { ProjectType } from "./types";
 const projects: ProjectType[] = [
     {
         id: 0,
-        image: '/projects/lavelada.png',
+        image: '/projects/realtime-chat.png',
         status: 'Finished',
-        deploy: 'https://lavelada-3.netlify.app/',
-        repository: 'https://github.com/LeonelSanz/la-velada-clone',
-        title: 'La Velada Landing',
+        deploy: 'https://realtime-chat-olive.vercel.app/',
+        repository: 'https://github.com/LeonelSanz/Realtime-Chat',
+        title: 'Realtime Chat',
         description: (
             <>
-                La Velada page clone developed with{' '}
+                Realtime Chat developed with{' '}
                 <Link
                     className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
                     href="https://astro.build/"
                     target="_blank"
                     referrerPolicy="no-referrer"
                 >
-                    Astro,
+                    ReactJS
+                </Link>{' '}
+                in Frontend and
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://tailwindcss.com/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    NodeJS,
                 </Link>{' '}
                 <Link
                     className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
@@ -27,22 +36,38 @@ const projects: ProjectType[] = [
                     target="_blank"
                     referrerPolicy="no-referrer"
                 >
-                    Tailwindcss
+                    Express,
                 </Link>{' '}
-                and deployed in
                 <Link
                     className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
                     href="https://www.netlify.com/"
                     target="_blank"
                     referrerPolicy="no-referrer"
                 >
-                    Netlify
+                    Socket io,
+                </Link>{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://tailwindcss.com/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    MongoDB
+                </Link>{' '}
+                and deployed in
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://vercel.com"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Vercel
                 </Link>
             </>
         )
     },
     {
-        id: 0,
+        id: 1,
         image: '/projects/Airbnb-clone.png',
         status: 'Finished',
         deploy: 'https://airclone-ten.vercel.app/',
@@ -88,7 +113,7 @@ const projects: ProjectType[] = [
         )
     },
     {
-        id: 1,
+        id: 2,
         image: '/projects/lavelada.png',
         status: 'Finished',
         deploy: 'https://lavelada-3.netlify.app/',
@@ -126,7 +151,7 @@ const projects: ProjectType[] = [
         )
     },
     {
-        id: 2,
+        id: 3,
         image: '/projects/ecommerce-react.png',
         status: 'Finished',
         deploy: 'https://react-coder-beta.vercel.app/',
@@ -172,7 +197,7 @@ const projects: ProjectType[] = [
         )
     },
     {
-        id: 3,
+        id: 4,
         image: '/projects/anime-commerce.png',
         status: 'Finished',
         deploy: 'https://leonelsanz.github.io/proyecto-final-html/',
