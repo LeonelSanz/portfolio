@@ -5,69 +5,6 @@ import { ProjectType } from "./types";
 const projects: ProjectType[] = [
     {
         id: 0,
-        image: '/projects/realtime-chat.png',
-        status: 'Finished',
-        deploy: 'https://realtime-chat-olive.vercel.app/',
-        repository: 'https://github.com/LeonelSanz/Realtime-Chat',
-        title: 'Realtime Chat',
-        description: (
-            <>
-                Realtime Chat developed with{' '}
-                <Link
-                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
-                    href="https://astro.build/"
-                    target="_blank"
-                    referrerPolicy="no-referrer"
-                >
-                    ReactJS
-                </Link>{' '}
-                in Frontend and
-                <Link
-                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
-                    href="https://tailwindcss.com/"
-                    target="_blank"
-                    referrerPolicy="no-referrer"
-                >
-                    NodeJS,
-                </Link>{' '}
-                <Link
-                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
-                    href="https://tailwindcss.com/"
-                    target="_blank"
-                    referrerPolicy="no-referrer"
-                >
-                    Express,
-                </Link>{' '}
-                <Link
-                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
-                    href="https://www.netlify.com/"
-                    target="_blank"
-                    referrerPolicy="no-referrer"
-                >
-                    Socket io,
-                </Link>{' '}
-                <Link
-                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
-                    href="https://tailwindcss.com/"
-                    target="_blank"
-                    referrerPolicy="no-referrer"
-                >
-                    MongoDB
-                </Link>{' '}
-                and deployed in
-                <Link
-                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
-                    href="https://vercel.com"
-                    target="_blank"
-                    referrerPolicy="no-referrer"
-                >
-                    Vercel
-                </Link>
-            </>
-        )
-    },
-    {
-        id: 1,
         image: '/projects/Airbnb-clone.png',
         status: 'Finished',
         deploy: 'https://airclone-ten.vercel.app/',
@@ -101,6 +38,98 @@ const projects: ProjectType[] = [
                     TypeScript
                 </Link>{' '}
                 and deployed in
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://vercel.com"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Vercel
+                </Link>
+            </>
+        )
+    },
+    {
+        id: 1,
+        image: '/projects/realtime-chat.png',
+        status: 'Finished',
+        deploy: 'https://realtime-chat-olive.vercel.app/',
+        repository: 'https://github.com/LeonelSanz/Realtime-Chat',
+        title: 'Realtime Chat',
+        description: (
+            <>
+                Realtime Chat developed with{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://react.dev/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    ReactJS,
+                </Link>{' '}
+                in Frontend and
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://nodejs.org/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    NodeJS,
+                </Link>{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://expressjs.com/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Express,
+                </Link>{' '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://socket.io/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Socket io
+                </Link>{' and '}
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://www.mongodb.com/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    MongoDB
+                </Link>{' '}
+                in Backend. Deployed in
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://vercel.com"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    Vercel
+                </Link>
+            </>
+        )
+    },
+    {
+        id: 2,
+        image: '/projects/buscador-peliculas.png',
+        status: 'Finished',
+        deploy: 'https://buscar-peliculas.vercel.app/',
+        repository: 'https://github.com/LeonelSanz/buscador-peliculas-react',
+        title: 'Search Movies',
+        description: (
+            <>
+                <Link
+                    className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
+                    href="https://react.dev/"
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                >
+                    ReactJS
+                </Link>{' '}
+                Technical test deployed in
                 <Link
                     className="hover:underline relative font-medium ml-1 transition-colors text-orange-50 hover:text-cyan-500"
                     href="https://vercel.com"
